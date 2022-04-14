@@ -1,6 +1,6 @@
 {
   "name": "progov-npm-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "progov npm utils library",
   "main": "lib/index.js",
   "scripts": {
