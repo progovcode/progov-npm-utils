@@ -30,7 +30,8 @@
     "config": "^3.3.7",
     "mocha": "^9.1.4",
     "nyc": "^15.1.0",
-    "sinon": "^12.0.1"
+    "sinon": "^12.0.1",
+    "validator": "^13.7.0"
   },
   "peerDependencies": {
     "config": ">=3.3.7"
