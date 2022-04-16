@@ -35,7 +35,7 @@ describe('Given validation', () => {
 			const password = 'Password@54321';
 			
 			const results = isValidPassword(password);
-			expect(results).to.be.equal(53.5);
+			expect(results).to.be.equal(true);
 		});
 	});
 });
