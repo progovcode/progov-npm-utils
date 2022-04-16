@@ -4,6 +4,7 @@ config:
 progov:
   validation:
     password:
+      score: 10
       options:
         minLength: 8
         minLowercase: 1

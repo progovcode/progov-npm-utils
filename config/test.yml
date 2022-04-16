@@ -4,6 +4,7 @@ config:
 progov:
   validation:
     password:
+      score: 10
       options:
         minLength: 8
         minLowercase: 1
@@ -17,3 +18,14 @@ progov:
         pointsForContainingUpper: 10
         pointsForContainingNumber: 10
         pointsForContainingSymbol: 10
+    email:
+      options:
+        ignore_max_length: true
+        allow_display_name: false
+        require_display_name: false
+        allow_utf8_local_part: true
+        require_tld: true
+        allow_ip_domain: false
+        domain_specific_validation: false
+        blacklisted_chars: ''
+        host_blacklist: []
